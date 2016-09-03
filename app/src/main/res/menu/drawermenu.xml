@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="Catering"
+          android:id="@+id/nav_item_catering"
+        android:icon="@drawable/draft"
+        />
+
+    <item android:title="Flowers"
+          android:id="@+id/nav_item_flowers"
+        android:icon="@drawable/draft"
+    />
+
+    <item android:title="Decorators"
+          android:id="@+id/nav_item_deco"
+          android:icon="@drawable/draft"/>
+
+
+    <item android:title="Bands/DJ"
+        android:id="@+id/nav_item_ban"
+        android:icon="@drawable/draft"/>
+
+    <item android:title="Cars"
+        android:id="@+id/nav_item_car"
+        android:icon="@drawable/draft"/>
+
+    <item android:title="Reception"
+        android:id="@+id/nav_item_repc"
+        android:icon="@drawable/draft"/>
+
+    <item android:title="Master Of Ceremony"
+        android:id="@+id/nav_item_Master"
+        android:icon="@drawable/draft"/>
+
+
+    <group android:id="@+id/group_settings_id">
+        <item android:title="Privacy Policy"
+            android:id="@+id/group_pri_pol"
+            android:icon="@drawable/draft"/>
+        <item android:title="Terms and Condition "
+            android:id="@+id/group_about_us"
+            android:icon="@drawable/draft"/>
+        <item android:title="Contact Us"
+            android:id="@+id/group_contact_us"
+            android:icon="@drawable/draft"/>
+
+    </group>
+
+
+</menu>

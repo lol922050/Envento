@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CF000F</color>
+    <color name="colorPrimaryDark">#ef0012</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="view_divider_color">#BABABA</color>
+    <color name="view_divider_color_2">#DADADA</color>
+
+
+    <color name="brasham2">#22313f</color>
+    <color name="black">#000</color>
+    <color name="orange">#ffc800</color>
+    <color name="white">#FFF</color>
+
+    <color name="frame">#b4b4b4</color>
+    <color name="brasham">#131f2a</color>
+    <color name="frame_solid">#eee</color>
+    <color name="frame_background">#bcbcbc</color>
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="bg_view_sms">#ffd423</color>
+    <color name="bg_view_otp">#fc6d38</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView9"
+
+        android:src="@drawable/login_page"
+        android:scaleType="fitXY" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_name_regdemo"
+        android:textColor="@color/white"
+       android:layout_below="@+id/imageView8"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ffffff"
+        android:textColorHint="@color/white"
+        android:hint="Name"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/editText_email_regdemo"
+        android:layout_below="@+id/editText_name_regdemo"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ffffff"
+        android:hint="Email"
+        android:layout_marginBottom="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:id="@+id/editText_phone_reg_demo"
+        android:layout_below="@+id/editText_email_regdemo"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:hint="Phone Number" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@mipmap/ic_launcher"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Rock N Roll   "
+        android:id="@+id/button_reg_demo"
+        android:background="@drawable/regbutton"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/editText_phone_reg_demo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
